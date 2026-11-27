@@ -1,0 +1,18 @@
+{
+  "name": "virtualbox",
+  "version": "1.1.0",
+  "description": "Работа с локальными ВМ Oracle VirtualBox с хоста Windows через VBoxManage.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Консоль VirtualBox",
+    "shortDescription": "Экран и терминал виртуальной машины",
+    "longDescription": "Показывает доступные машины, читает экран и вводит команды с проверкой строки перед Enter. При доступной гостевой аутентификации получает вывод через Guest Additions.",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Покажи запущенные ВМ VirtualBox.",
+      "Посмотри, что сейчас на экране Debian13.",
+      "Проверь свободное место в Debian13 и покажи результат."
+    ]
+  }
+}

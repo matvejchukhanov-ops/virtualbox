@@ -1,0 +1,12 @@
+{
+  "name": "local-vm-tools",
+  "interface": { "displayName": "Локальные инструменты для ВМ" },
+  "plugins": [
+    {
+      "name": "virtualbox",
+      "source": { "source": "local", "path": "./plugins/virtualbox" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Консоль VirtualBox"
+  short_description: "Чтение экрана и ввод команд в локальные ВМ"
+  default_prompt: "Используй $virtualbox:console, чтобы показать запущенные ВМ VirtualBox."
